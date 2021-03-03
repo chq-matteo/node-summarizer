@@ -28,7 +28,7 @@
   "dependencies": {
     "sbd": "^1.0.15",
     "natural": "^0.6.3",
-    "wordpos": "^1.2.0"
+    "wordpos-web": "^1.0.2"
   },
   "devDependencies": {
     "jest": "^24.7.1"
