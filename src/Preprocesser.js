@@ -1,4 +1,4 @@
-const WordPos = require("wordpos-web");
+const WordPos = require("wordpos");
 const WeightedGraph = require('./WeightedGraph').WeightedGraph;
 const sbd = require('sbd');
 
