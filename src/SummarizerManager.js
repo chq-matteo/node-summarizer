@@ -1,5 +1,4 @@
 const Summarizer = require('./Summarizer').Summarizer;
-const natural = require("natural");
 
 class SummarizerManager{
 	constructor(string, number_of_sentences){
@@ -10,12 +9,7 @@ class SummarizerManager{
 	}
 
 	getSentiment(){
-		let self = this;
-		let Analyzer = require('natural').SentimentAnalyzer;
-		let stemmer = require('natural').PorterStemmer;
-		let analyzer = new Analyzer("English", stemmer, "afinn");
-		return analyzer.getSentiment(self.string.split(" "));
-		
+		return Error("Sentiment analysis is not supported");
 	}
 	getFrequencyReduction(){
 		if (this.frequency_summary == ""){
